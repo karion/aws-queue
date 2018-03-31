@@ -1,0 +1,9 @@
+<?php
+return [
+    'aws' => [
+        'sqs' => [
+            'key' => 'API_key',
+            'secret' => 'Api_key_secret'
+        ]
+    ]
+];
