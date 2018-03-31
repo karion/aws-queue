@@ -2,9 +2,17 @@
     "name": "karion/aws-queue",
     "description": "AWS Queue tutorial",
     "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "aws/aws-sdk-php": "^3.53",
-        "symfony/console": "^4.0"
+        "symfony/console": "^4.0",
+        "league/container": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
     },
     "authors": [
         {
