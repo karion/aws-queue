@@ -1,0 +1,15 @@
+{
+    "name": "karion/aws-queue",
+    "description": "AWS Queue tutorial",
+    "type": "project",
+    "require": {
+        "aws/aws-sdk-php": "^3.53",
+        "symfony/console": "^4.0"
+    },
+    "authors": [
+        {
+            "name": "Tomasz Szymczyk",
+            "email": "karion.ubuntu@gmail.com"
+        }
+    ]
+}
